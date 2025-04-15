@@ -46,7 +46,7 @@ Alternatively, if you want to install just the required package:
 pip install transformers
 ```
 
-Note: You might see a warning message "None of PyTorch, TensorFlow >= 2.0, or Flax have been found" when running the script. This is just informational and can be safely ignored since we only use the tokenizer functionality, which works without these frameworks.
+Note: You might see a warning message "None of PyTorch, TensorFlow >= 2.0, or Flax have been found" when running the script. This is just informational and can be safely ignored since we only use the tokenizer functionality, which works without these frameworks. This message seems to appear only the first time you run the script.  Just run the script again and it will disappear.
 
 ## Usage
 
